@@ -7,8 +7,8 @@ import Board from './components/Board/index';
 export default function Routes() {
     return (
         <BrowserRouter>
-            <Route path="/" exact component={Board} />
-            <Route path="/adicionar" component={Add} />
+            <Route path="/react-page-test/" exact component={Board} />
+            <Route path="/react-page-test/adicionar" component={Add} />
         </BrowserRouter>
     );
 }
